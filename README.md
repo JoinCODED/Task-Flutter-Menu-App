@@ -6,7 +6,7 @@
 
 1. Create a new project named: `menu_app`.
 2. Set up you project with a `Scaffold` and an `AppBar`.
-3. Download those [images]() and add them to your project folder and include them in your `pubspec.yaml` file.
+3. Download those [images](https://github.com/JoinCODED/Task-Flutter-Menu-App/tree/main/assets/images) and add them to your project folder and include them in your `pubspec.yaml` file.
 4. Create a new file in your `lib` directory called `food.dart`.
 5. Create a `class` for the menu items, add a `name` and `imgPath` properties and generate a constructor.
 6. Import your new file in the `main.dart` file.
