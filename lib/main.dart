@@ -20,28 +20,13 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
-  List foods = [
-    'Pasta',
-    'Burger',
-    'Suchi',
-    'Pizza',
-    'Biryani',
-  ];
 
-  List foodModel = [
+  List foods = [
     Food(name: "Pasta", imgPath: "images/pasta.jpg"),
     Food(name: "Burger", imgPath: "images/burger.jpg"),
     Food(name: "Suchi", imgPath: "images/suchi.jpg"),
     Food(name: "Pizza", imgPath: "images/pizza.jpg"),
     Food(name: "Biryani", imgPath: "images/biryani.jpg"),
-  ];
-
-  List imgPaths = [
-    'images/pasta.jpg',
-    'images/burger.jpg',
-    'images/suchi.jpg',
-    'images/pizza.jpg',
-    'images/biryani.jpg',
   ];
 
   @override
@@ -51,22 +36,22 @@ class HomePage extends StatelessWidget {
         title: const Text("Menu"),
         backgroundColor: Colors.red.shade400,
       ),
-      body: GridView.builder(
-        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-            maxCrossAxisExtent: 200,
-            childAspectRatio: 1,
-            crossAxisSpacing: 20,
-            mainAxisSpacing: 20),
+      body: ListView.builder(
+        // gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+        //     maxCrossAxisExtent: 200,
+        //     childAspectRatio: 1,
+        //     crossAxisSpacing: 20,
+        //     mainAxisSpacing: 20),
         itemCount: foods.length,
         itemBuilder: (BuildContext context, int index) {
           return Card(
-            child: Column(
+            child: Row(
               children: [
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
-                      foods[index],
+                      foods[index].name,
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -78,7 +63,7 @@ class HomePage extends StatelessWidget {
                   padding: const EdgeInsets.all(10),
                   // 2
                   child: Image.asset(
-                    imgPaths[index],
+                    foods[index].imgPath,
                     // 3
                     width: 125,
                     height: 125,
