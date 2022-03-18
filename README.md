@@ -1,33 +1,29 @@
-# TASK-NAME
-
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+# Menu App 🍽️
 
 ## Instructions
-- Fork and clone [this repository](https://github.com/JoinCODED/{REPO_NAME}) to your `Development` folder.
 
-## Objective and end result
-- Write the objective of the task.
-- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+1. Create a new project named: `menu_app`.
+2. Set up you project with a `Scaffold` and an `AppBar`.
+3. Download those [images]() and add them to your project folder and include them in your `pubspec.yaml` file.
+4. Create a new file in your `lib` directory called `food.dart`.
+5. Create a `class` for the menu items, add a `name` and `imgPath` properties and generate a constructor.
+6. Import your new file in the `main.dart` file.
+7. Create a `List` for the menu items and create multiple instances of the `Food` class with those values:
 
-![screenshot](https://tenor.com/xNjE.gif)
+```
+    'Pasta','images/pasta.jpg'
+    'Burger','images/burger.jpg'
+    'Suchi','images/suchi.jpg'
+    'Pizza','images/pizza.jpg'
+    'Biryani','images/biryani.jpg'
+```
 
+8. In your `Scaffold`'s `body` create a `ListView.builder` widget.
+9. Add an `itemCount` property.
+10. Add an `itemBuilder` property that returns a `Card` widget and style your card.
 
-### 🍋 The basic challenge title
+### 🍋 Grid Builder
 
-- Step 1
-- Step 2
-- Step 3
+Try to replace the `ListView.builder` to `GridView.builder` widget.
 
-
-### 🤼‍♂️ The hard challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-
-### 🌶 The Extreme challenge title 
-
-- Step 1
-- Step 2
-- Step 3
+💡Hint: ![docs](https://api.flutter.dev/flutter/widgets/GridView/GridView.builder.html)
