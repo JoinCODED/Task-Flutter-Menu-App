@@ -23,6 +23,10 @@
 8. In your `Scaffold`'s `body` create a `ListView.builder` widget.
 9. Add an `itemCount` property.
 10. Add an `itemBuilder` property that returns a `Card` widget and style your card.
+11. In your `Card` widget add a `Row` with 2 children: a `Text` widget and a `Image.Asset` widget.
+12. Wrap your `Text` and `Image.Asset` widgets with a `Padding` widget.
+13. Wrap your `Text` widget with `Expanded` widget so it takes up the free space.
+14. Render the `name` and `imgPath` using the `index` in your widgets.
 
 ### 🍋 Grid Builder
 
