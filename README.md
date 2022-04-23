@@ -2,7 +2,7 @@
 
 ![image1](https://user-images.githubusercontent.com/84308096/159009202-d2eb6e65-ee78-4153-bb82-c20787b82a49.png)
 
-## Instructions
+## 🍋 Instructions
 
 1. Create a new project named: `menu_app`.
 2. Set up you project with a `Scaffold` and an `AppBar`.
@@ -28,7 +28,7 @@
 13. Wrap your `Text` widget with `Expanded` widget so it takes up the free space.
 14. Render the `name` and `imgPath` using the `index` in your widgets.
 
-### 🍋 Grid Builder
+### 🤼‍♂️ Grid Builder
 
 Try to replace the `ListView.builder` to `GridView.builder` widget.
 
