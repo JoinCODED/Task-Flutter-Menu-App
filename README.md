@@ -7,10 +7,11 @@
 1. Create a new project named: `menu_app`.
 2. Set up you project with a `Scaffold` and an `AppBar`.
 3. Download those [images](https://github.com/JoinCODED/Task-Flutter-Menu-App/tree/main/assets/images) and add them to your project folder and include them in your `pubspec.yaml` file.
-4. Create a new file in your `lib` directory called `food.dart`.
-5. Create a `class` for the menu items, add a `name` and `imgPath` properties and generate a constructor.
-6. Import your new file in the `main.dart` file.
-7. Create a `List` for the menu items and create multiple instances of the `Food` class with those values:
+4. Create a new folder in your `lib` directory called `models`.
+5. Create a file called `food.dart` inside models folder
+6. Create a `class` for the menu items, add a `name` and `imgPath` properties and generate a constructor.
+7. Import your new file in the `main.dart` file.
+8. Create a `List` for the menu items and create multiple instances of the `Food` class with those values:
 
 ```
     'Pasta','images/pasta.jpg'
