@@ -29,6 +29,9 @@
 13. Wrap your `Text` widget with `Expanded` widget so it takes up the free space.
 14. Render the `name` and `imgPath` using the `index` in your widgets.
 
+### Some Fancy UI
+Make each Card have a rounded radius
+
 ### 🤼‍♂️ Grid Builder
 
 Try to replace the `ListView.builder` to `GridView.builder` widget.
