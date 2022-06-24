@@ -4,6 +4,16 @@
 
 ## 🍋 Instructions
 
+```
+1. Create a new Github repo
+2. Create a local repo using the command `git init`
+3. Push to the new repo
+
+git remote add origin https://github.com/YourUsername/repoName.git
+git branch -M main
+git push -u origin main
+```
+
 1. Create a new project named: `menu_app`.
 2. Set up you project with a `Scaffold` and an `AppBar`.
 3. Download those [images](https://github.com/JoinCODED/Task-Flutter-Menu-App/tree/main/assets/images) and add them to your project folder and include them in your `pubspec.yaml` file.
