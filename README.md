@@ -2,17 +2,25 @@
 
 ![image1](https://user-images.githubusercontent.com/84308096/159009202-d2eb6e65-ee78-4153-bb82-c20787b82a49.png)
 
-## 🍋 Instructions
+## Setup
 
-```
 1. Create a new Github repo
 2. Create a local repo using the command `git init`
 3. Push to the new repo
 
+```shell
 git remote add origin https://github.com/YourUsername/repoName.git
+```
+
+```shell
 git branch -M main
+```
+
+```shell
 git push -u origin main
 ```
+
+## 🍋 Instructions
 
 1. Create a new project named: `menu_app`.
 2. Set up you project with a `Scaffold` and an `AppBar`.
@@ -34,12 +42,28 @@ git push -u origin main
 8. In your `Scaffold`'s `body` create a `ListView.builder` widget.
 9. Add an `itemCount` property.
 10. Add an `itemBuilder` property that returns a `Card` widget and style your card.
-11. In your `Card` widget add a `Row` with 2 children: a `Text` widget and a `Image.Asset` widget.
-12. Wrap your `Text` and `Image.Asset` widgets with a `Padding` widget.
-13. Wrap your `Text` widget with `Expanded` widget so it takes up the free space.
-14. Render the `name` and `imgPath` using the `index` in your widgets.
+11. In your `Card` widget add the text and the image.
+
+Here's the widgets you will need:
+
+[Row](https://api.flutter.dev/flutter/widgets/Row/Row-class.html).
+
+[Expanded](https://api.flutter.dev/flutter/widgets/Expanded/Expanded-class.html).
+
+[Text](https://api.flutter.dev/flutter/widgets/Text/Text-class.html).
+
+[Image.Asset](https://api.flutter.dev/flutter/widgets/Image/Image-class.html).
+
+[Padding](https://api.flutter.dev/flutter/widgets/Padding/Padding-class.html).
+
+[Card](https://api.flutter.dev/flutter/widgets/Card/Card-class.html).
+
+[ListView.builder](https://api.flutter.dev/flutter/widgets/ListView/ListView-class.html#builder).
+
+[Column](https://api.flutter.dev/flutter/widgets/Column/Column-class.html).
 
 ### Some Fancy UI
+
 Make each Card have a rounded radius
 
 ### 🤼‍♂️ Grid Builder
@@ -47,3 +71,17 @@ Make each Card have a rounded radius
 Try to replace the `ListView.builder` to `GridView.builder` widget.
 
 💡Hint: ![docs](https://api.flutter.dev/flutter/widgets/GridView/GridView.builder.html)
+
+## Push to Github
+
+```shell
+git add .
+```
+
+```shell
+git commit -m "your message"
+```
+
+```shell
+git push
+```
