@@ -70,7 +70,7 @@ Make each Card have a rounded radius
 
 Try to replace the `ListView.builder` to `GridView.builder` widget.
 
-💡Hint: ![docs](https://api.flutter.dev/flutter/widgets/GridView/GridView.builder.html)
+💡Hint: [docs](https://api.flutter.dev/flutter/widgets/GridView/GridView.builder.html)
 
 ## Push to Github
 
