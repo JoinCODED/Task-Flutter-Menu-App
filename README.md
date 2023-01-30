@@ -46,21 +46,21 @@ git push -u origin main
 
 Here's the widgets you will need:
 
-[Row](https://api.flutter.dev/flutter/widgets/Row/Row-class.html).
+[Row](https://api.flutter.dev/flutter/widgets/Row-class.html).
 
-[Expanded](https://api.flutter.dev/flutter/widgets/Expanded/Expanded-class.html).
+[Expanded](https://api.flutter.dev/flutter/widgets/Expanded-class.html).
 
-[Text](https://api.flutter.dev/flutter/widgets/Text/Text-class.html).
+[Text](https://api.flutter.dev/flutter/widgets/Text-class.html).
 
-[Image.Asset](https://api.flutter.dev/flutter/widgets/Image/Image-class.html).
+[Image.Asset](https://api.flutter.dev/flutter/widgets/Image-class.html).
 
-[Padding](https://api.flutter.dev/flutter/widgets/Padding/Padding-class.html).
+[Padding](https://api.flutter.dev/flutter/widgets/Padding-class.html).
 
-[Card](https://api.flutter.dev/flutter/widgets/Card/Card-class.html).
+[Card](https://api.flutter.dev/flutter/material/Card-class.html).
 
-[ListView.builder](https://api.flutter.dev/flutter/widgets/ListView/ListView-class.html#builder).
+[ListView.builder](https://api.flutter.dev/flutter/widgets/ListView/ListView.builder.html).
 
-[Column](https://api.flutter.dev/flutter/widgets/Column/Column-class.html).
+[Column](https://api.flutter.dev/flutter/widgets/Column-class.html).
 
 ### Some Fancy UI
 
